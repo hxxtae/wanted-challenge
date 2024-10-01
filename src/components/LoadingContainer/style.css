@@ -1,0 +1,29 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(99, 99, 99, 0.1);
+}
+
+.circle {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border: 10px solid;
+  border-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  border-image-slice: 1;
+  animation: cycle 1s linear infinite;
+}
+
+@keyframes cycle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
