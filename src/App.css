@@ -46,7 +46,7 @@
 
 .side_article p {
   text-align: center;
-  // truncate
+  /* truncate */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

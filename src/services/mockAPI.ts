@@ -5,7 +5,7 @@ export interface MockData {
   boughtDate: string
 }
 
-const PRODUCT_URL = "./src/services/mockData.json" as const
+const PRODUCT_URL = `${import.meta.env.BASE_URL}mockData.json` as const
 
 export const productsAPI = async (): Promise<MockData[] | null> => {
   try {

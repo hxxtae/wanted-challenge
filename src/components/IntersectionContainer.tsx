@@ -25,7 +25,6 @@ export const IntersectionContainer: FC<Params> = ({
         threshold,
       }
       const callback: IntersectionObserverCallback = (entries) => {
-        console.log("callback")
         entries.forEach((entry) => {
           if (entry.isIntersecting && elRef.current) {
             setLoading(true)

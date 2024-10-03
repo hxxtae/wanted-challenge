@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/intersectioncontainer.tsx","./src/components/loadingcontainer/index.tsx","./src/components/productcard/index.tsx","./src/services/mockapi.ts","./src/utils/days.ts"],"version":"5.6.2"}

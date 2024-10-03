@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "dayjs": "^1.11.13",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -27,5 +30,5 @@
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
   },
-  "homepage": "https://hxxtae.github.io/wanted-challenge/"
+  "homepage": "https://hxxtae.github.io/wanted-challenge"
 }
