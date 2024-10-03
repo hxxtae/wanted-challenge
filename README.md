@@ -1,5 +1,7 @@
 # 프리온보딩 FE 챌린지 10월 (2024) | 리액트 오픈소스 펼쳐보기
 
+[참조](https://gist.github.com/goldfrosch/034b966075059447efa1c00476849d68#gistcomment-5217792)
+
 ## 챌린지 과제 제출 방법
 
 > 과제를 진행한 repository의 링크를 Gist Comment에 남겨주세요.
